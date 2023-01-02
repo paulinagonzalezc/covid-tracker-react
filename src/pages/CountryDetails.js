@@ -1,7 +1,11 @@
 import React from 'react';
+import Details from '../components/Details';
 
 const CountryDetails = () => (
-  <div>CountryDetails</div>
+  <div>
+    CountryDetails
+    <Details />
+  </div>
 );
 
 export default CountryDetails;

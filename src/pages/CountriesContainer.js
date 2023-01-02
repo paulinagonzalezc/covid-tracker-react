@@ -1,7 +1,10 @@
 import React from 'react';
+import Countries from '../components/Countries';
 
 const CountriesContainer = () => (
-  <div>CountriesContainer</div>
+  <div>
+    <Countries />
+  </div>
 );
 
 export default CountriesContainer;
