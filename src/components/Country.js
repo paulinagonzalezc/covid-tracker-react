@@ -1,23 +1,22 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 const Country = (props) => {
   const { name, flag, cases } = props;
   return (
-    <div className="rocket-container">
-      <img className="rocket-image" alt="rocket" src={flag} />
-      <div className="rocket-details">
-        <h2 className="rocket-title">{name}</h2>
-        <p>
-          Total Cases:
-          {' '}
-          {cases}
-        </p>
-        <h3>
-          <Link to={`details/${name}`}>{name}</Link>
-        </h3>
+    <div className="country-container">
+      <div className="detail-title">
+        <Link to={`details/${name}`}><ArrowForwardIcon className="arrow" /></Link>
+        <h2 className="country-title">{name}</h2>
       </div>
+      <img className="country-flag" alt="flag" src={flag} />
+      <p className="country-cases">
+        Total Cases:
+        {' '}
+        {cases}
+      </p>
     </div>
   );
 };

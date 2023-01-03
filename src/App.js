@@ -3,6 +3,10 @@ import Nav from './components/Nav';
 import CountriesContainer from './pages/CountriesContainer';
 import CountryDetails from './pages/CountryDetails';
 import './App.css';
+import './styling/Nav.css';
+import './styling/Filter.css';
+import './styling/Countries.css';
+import './styling/Country.css';
 
 const App = () => (
   <div className="main-container">
