@@ -3,34 +3,43 @@ import { v4 as uuidv4 } from 'uuid';
 
 const GET = 'covid-tracker-react/countriesReducer/GET';
 
+const filterCountries = (countries, filter) => {
+  if (filter) {
+    return countries.filter((country) => country.continent === filter);
+  }
+  return countries;
+};
+
 // Reducer
 const countriesReducer = (state = [], action) => {
   switch (action.type) {
-    case `${GET}/fulfilled`:
-      return Object.keys(action.payload).map((key) => ({
+    case `${GET}/fulfilled`: {
+      const allCountries = action.payload.data.map((country) => ({
         id: uuidv4(),
-        country: action.payload[key].country,
-        flag: action.payload[key].countryInfo.flag,
-        cases: action.payload[key].cases,
-        continent: action.payload[key].continent,
+        country: country.country,
+        flag: country.countryInfo.flag,
+        cases: country.cases,
+        continent: country.continent,
       }));
-    default:
+      return filterCountries(allCountries, action.payload.filter);
+    }
+    default: {
       return state;
+    }
   }
 };
 
 // Action creator
-export const getCountries = (payload) => ({
-  type: GET,
-  payload,
-});
+// export const getCountries = (payload) => ({
+//   type: GET,
+//   payload,
+// });
 
 // API
-export const fetchCountries = createAsyncThunk(GET, async () => {
+export const fetchCountries = createAsyncThunk(GET, async (filter) => {
   const response = await fetch('https://disease.sh/v3/covid-19/countries');
   const data = await response.json();
-  // console.log(data);
-  return data;
+  return { data, filter };
 });
 
 export default countriesReducer;
