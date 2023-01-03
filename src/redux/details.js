@@ -28,7 +28,6 @@ export const getDetail = (payload) => ({
 export const fetchDetail = createAsyncThunk(FETCH, async (country) => {
   const response = await fetch(`https://disease.sh/v3/covid-19/countries/${country}`);
   const data = await response.json();
-  console.log(data);
   return data;
 });
 

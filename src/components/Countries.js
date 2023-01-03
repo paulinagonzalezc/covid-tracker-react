@@ -7,11 +7,12 @@ const Countries = () => {
   const countries = useSelector((state) => state.countries);
   const { length } = countries;
   const dispatch = useDispatch();
+
   useEffect(() => {
     if (length === 0) {
       dispatch(fetchCountries());
     }
-  }, [dispatch]);
+  }, []);
   return (
     <div>
       {
