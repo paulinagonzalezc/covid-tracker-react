@@ -13,8 +13,10 @@ const Filter = () => {
         {
     continents.map((continent) => (
       <button
+        className="continent-button"
         key={continent}
         type="button"
+        data-testid={continent}
         onClick={() => {
           if (continent === 'All') {
             dispatch(fetchCountries());

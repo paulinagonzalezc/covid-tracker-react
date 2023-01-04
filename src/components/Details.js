@@ -17,21 +17,21 @@ const Details = () => {
       <img className="detail-image" alt="flag" src={detail.flag} />
       <div className="country-wrapper">
         <h1 className="country-name">{detail.country}</h1>
-        <ul className="country-details">
+        <ul className="country-details" data-testid="country-details">
           <li className="detail">
-            <span>Today Cases:</span>
+            <span className="today-cases">Today Cases:</span>
             <span>{detail.todayCases}</span>
           </li>
           <li className="detail">
-            <span>Total Cases:</span>
+            <span className="total-cases">Total Cases:</span>
             <span>{detail.cases}</span>
           </li>
           <li className="detail">
-            <span>Today Deaths:</span>
+            <span className="today-deaths">Today Deaths:</span>
             <span>{detail.todayDeaths}</span>
           </li>
           <li className="detail">
-            <span>Total Deaths:</span>
+            <span className="total-deaths">Total Deaths:</span>
             <span>{detail.deaths}</span>
           </li>
           <li className="detail">

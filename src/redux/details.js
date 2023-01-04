@@ -2,6 +2,7 @@ import { createAsyncThunk } from '@reduxjs/toolkit';
 
 const FETCH = 'covid-tracker-react/detailReducer/FETCH';
 
+// Reducer
 const detailReducer = (state = [], action) => {
   switch (action.type) {
     case `${FETCH}/fulfilled`:
@@ -20,11 +21,13 @@ const detailReducer = (state = [], action) => {
   }
 };
 
+// Action creator
 export const getDetail = (payload) => ({
   type: FETCH,
   payload,
 });
 
+// API
 export const fetchDetail = createAsyncThunk(FETCH, async (country) => {
   const response = await fetch(`https://disease.sh/v3/covid-19/countries/${country}`);
   const data = await response.json();
