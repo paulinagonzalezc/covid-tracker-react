@@ -8,8 +8,9 @@ const Filter = () => {
 
   return (
     <div>
-      <h1>Daily Worldwide COVID-19 Cases Data</h1>
-      {
+      <h1 className="main-title">Daily Worldwide COVID-19 Cases Data</h1>
+      <div className="buttons">
+        {
     continents.map((continent) => (
       <button
         key={continent}
@@ -26,6 +27,7 @@ const Filter = () => {
       </button>
     ))
     }
+      </div>
     </div>
   );
 };

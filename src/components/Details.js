@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { useParams, NavLink } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import { fetchDetail } from '../redux/details';
 
 const Details = () => {
@@ -12,31 +13,33 @@ const Details = () => {
   }, [dispatch]);
   return (
     <div className="details-container">
-      <NavLink to="/">Back</NavLink>
-      <h1>{detail.country}</h1>
+      <NavLink to="/" className="arrow-back"><ArrowBackIcon /></NavLink>
       <img className="detail-image" alt="flag" src={detail.flag} />
-      <ul className="country-details">
-        <li>
-          Today Cases:
-          {detail.todayCases}
-        </li>
-        <li>
-          Total Cases:
-          {detail.cases}
-        </li>
-        <li>
-          Today Deaths:
-          {detail.todayDeaths}
-        </li>
-        <li>
-          Total Deaths:
-          {detail.deaths}
-        </li>
-        <li>
-          Country Population:
-          {detail.population}
-        </li>
-      </ul>
+      <div className="country-wrapper">
+        <h1 className="country-name">{detail.country}</h1>
+        <ul className="country-details">
+          <li className="detail">
+            <span>Today Cases:</span>
+            <span>{detail.todayCases}</span>
+          </li>
+          <li className="detail">
+            <span>Total Cases:</span>
+            <span>{detail.cases}</span>
+          </li>
+          <li className="detail">
+            <span>Today Deaths:</span>
+            <span>{detail.todayDeaths}</span>
+          </li>
+          <li className="detail">
+            <span>Total Deaths:</span>
+            <span>{detail.deaths}</span>
+          </li>
+          <li className="detail">
+            <span>Country Population:</span>
+            <span>{detail.population}</span>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };

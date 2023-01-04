@@ -3,7 +3,6 @@ import Details from '../components/Details';
 
 const CountryDetails = () => (
   <div>
-    CountryDetails
     <Details />
   </div>
 );
