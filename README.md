@@ -32,7 +32,7 @@
 
 # 📖 Covid Cases Tracker <a name="about-project"></a>
 
-**Covid Cases Tracker** is a web application that provides realtime data about COVID-19 cases worldwide.
+**Covid Cases Tracker** is a web application that provides realtime data about COVID-19 cases worldwide using the disease.sh COVID-19 API.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -55,7 +55,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://space-travelers-hub-oo7r.onrender.com/)
+- [Live Demo Link](https://covid-tracker-react.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -149,6 +149,7 @@ If you like this project please give it a star 😁🌟✨
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 Original design idea by [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) on Behance.
+API: [disease.sh Docs - An open API for disease-related statistics](https://disease.sh/docs/#/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
