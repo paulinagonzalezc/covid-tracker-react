@@ -2,11 +2,12 @@ import { Routes, Route } from 'react-router-dom';
 import Nav from './components/Nav';
 import CountriesContainer from './pages/CountriesContainer';
 import CountryDetails from './pages/CountryDetails';
-import './App.css';
+import './styling/App.css';
 import './styling/Nav.css';
 import './styling/Filter.css';
 import './styling/Countries.css';
 import './styling/Country.css';
+import './styling/Details.css';
 
 const App = () => (
   <div className="main-container">
