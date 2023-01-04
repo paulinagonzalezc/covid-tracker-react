@@ -56,6 +56,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://covid-tracker-react.onrender.com/)
+- [Link to video](https://drive.google.com/file/d/1S62CEZ123PHGQSaFJnSo-u2yA9ArDA8Q/view?usp=sharing)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
