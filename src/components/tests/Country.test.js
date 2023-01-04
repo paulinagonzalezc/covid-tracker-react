@@ -26,6 +26,6 @@ describe('Country component test', () => {
     const title = screen.getByText(/Mexico/);
     expect(title).toBeInTheDocument();
     expect(title).toHaveClass('country-title');
-    expect(screen.getByTestId('detail-link')).toBeInTheDocument()
+    expect(screen.getByTestId('detail-link')).toBeInTheDocument();
   });
 });

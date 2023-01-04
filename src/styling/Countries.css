@@ -5,3 +5,9 @@
   justify-content: center;
   gap: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+  .countries {
+    grid-template-columns: 1fr 1fr;
+  }
+}

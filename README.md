@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="./murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="./covid-19.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Covid Cases Tracker</b></h3>
@@ -32,7 +32,7 @@
 
 # 📖 Covid Cases Tracker <a name="about-project"></a>
 
-**Covid Cases Tracker** is a web application for a company that provides commercial and scientific space travel services. The application allows users to book rockets and join selected space missions. The application works with real live data from the SpaceX API. 
+**Covid Cases Tracker** is a web application that provides realtime data about COVID-19 cases worldwide.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -47,9 +47,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Reserve and cancel rockets reservations**
-- **Book and cancel missions booking**
-- **See reserved rockets and booked missions in a dedicated page**
+- **Displays total cases historicaly by country**
+- **Available to filter countries by continent**
+- **Go to a details by country page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -76,7 +76,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/paulinagonzalezc/space-travelers-react.git
+  git clone https://github.com/paulinagonzalezc/covid-tracker-react.git
 ```
 
 ### Install
@@ -123,12 +123,6 @@ npm run deploy
 - Twitter: [@paulinagzzc](https://twitter.com/paulinagzzc)
 - LinkedIn: [Paulina Gonzalez Cantu](https://www.linkedin.com/in/paulina-gonzalez-cantu/)
 
-👤 **David Zambrano**
-
-- GitHub: [@yayoamigo](https://github.com/yayoamigo)
-- Twitter: [@carpediem0011](https://twitter.com/carpediem0011)
-- LinkedIn: [David Zambrano](https://www.linkedin.com/in/david-zambrano-corral-b87a4198/))
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
@@ -142,7 +136,7 @@ npm run deploy
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/paulinagonzalezc/space-travelers-react/issues).
+Feel free to check the [issues page](https://github.com/paulinagonzalezc/covid-tracker-react/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -154,7 +148,7 @@ If you like this project please give it a star 😁🌟✨
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-We would like to thank Microverse for the project UI.
+Original design idea by [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) on Behance.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

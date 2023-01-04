@@ -1,5 +1,4 @@
-import { getDetail } from '../details';
-import { fetchDetail } from '../details';
+import { getDetail, fetchDetail } from '../details';
 
 describe('details reducer test', () => {
   it('Expect detail 2 to be 2', () => {
@@ -11,7 +10,7 @@ describe('details reducer test', () => {
   });
 
   it('Expects the result of fetchDetail function', () => {
-    const country = "Canada"
+    const country = 'Canada';
     const result = fetchDetail(country);
     expect(typeof result).toBe('function');
   });
