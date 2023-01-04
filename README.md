@@ -27,7 +27,6 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 # 📖 Covid Cases Tracker <a name="about-project"></a>
@@ -56,7 +55,16 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://covid-tracker-react.onrender.com/)
-- [Link to video](https://drive.google.com/file/d/1S62CEZ123PHGQSaFJnSo-u2yA9ArDA8Q/view?usp=sharing)
+- [Link to Video](https://drive.google.com/file/d/1S62CEZ123PHGQSaFJnSo-u2yA9ArDA8Q/view?usp=sharing)
+
+<div>
+<img src="./img/main-desktop.png" alt="logo" width="380"  height="200" />
+<img src="./img/details-desktop.png" alt="logo" width="380"  height="200" />
+</div>
+<div>
+<img src="./img/main-mobile.png" alt="logo" width="140"  height="auto" />
+<img src="./img/details-mobile.png" alt="logo" width="140"  height="auto" />
+<div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
