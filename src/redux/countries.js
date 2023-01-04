@@ -30,10 +30,10 @@ const countriesReducer = (state = [], action) => {
 };
 
 // Action creator
-// export const getCountries = (payload) => ({
-//   type: GET,
-//   payload,
-// });
+export const getCountries = (payload) => ({
+  type: GET,
+  payload,
+});
 
 // API
 export const fetchCountries = createAsyncThunk(GET, async (filter) => {

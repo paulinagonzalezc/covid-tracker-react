@@ -1,0 +1,186 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Filter component test should render 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <h1
+          class="main-title"
+        >
+          Daily Worldwide COVID-19 Cases Data
+        </h1>
+        <div
+          class="buttons"
+        >
+          <button
+            class="continent-button"
+            data-testid="All"
+            type="button"
+          >
+            All
+          </button>
+          <button
+            class="continent-button"
+            data-testid="North America"
+            type="button"
+          >
+            North America
+          </button>
+          <button
+            class="continent-button"
+            data-testid="South America"
+            type="button"
+          >
+            South America
+          </button>
+          <button
+            class="continent-button"
+            data-testid="Africa"
+            type="button"
+          >
+            Africa
+          </button>
+          <button
+            class="continent-button"
+            data-testid="Asia"
+            type="button"
+          >
+            Asia
+          </button>
+          <button
+            class="continent-button"
+            data-testid="Europe"
+            type="button"
+          >
+            Europe
+          </button>
+          <button
+            class="continent-button"
+            data-testid="Australia-Oceania"
+            type="button"
+          >
+            Australia-Oceania
+          </button>
+        </div>
+      </div>
+      ,
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <h1
+        class="main-title"
+      >
+        Daily Worldwide COVID-19 Cases Data
+      </h1>
+      <div
+        class="buttons"
+      >
+        <button
+          class="continent-button"
+          data-testid="All"
+          type="button"
+        >
+          All
+        </button>
+        <button
+          class="continent-button"
+          data-testid="North America"
+          type="button"
+        >
+          North America
+        </button>
+        <button
+          class="continent-button"
+          data-testid="South America"
+          type="button"
+        >
+          South America
+        </button>
+        <button
+          class="continent-button"
+          data-testid="Africa"
+          type="button"
+        >
+          Africa
+        </button>
+        <button
+          class="continent-button"
+          data-testid="Asia"
+          type="button"
+        >
+          Asia
+        </button>
+        <button
+          class="continent-button"
+          data-testid="Europe"
+          type="button"
+        >
+          Europe
+        </button>
+        <button
+          class="continent-button"
+          data-testid="Australia-Oceania"
+          type="button"
+        >
+          Australia-Oceania
+        </button>
+      </div>
+    </div>
+    ,
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

@@ -8,8 +8,8 @@ const Country = (props) => {
   return (
     <div className="country-container">
       <div className="detail-title">
-        <Link to={`details/${name}`}><ArrowForwardIcon className="arrow" /></Link>
-        <h2 className="country-title">{name}</h2>
+        <Link to={`details/${name}`} data-testid="detail-link"><ArrowForwardIcon className="arrow" /></Link>
+        <h2 className="country-title" data-testid={name}>{name}</h2>
       </div>
       <img className="country-flag" alt="flag" src={flag} />
       <p className="country-cases">
