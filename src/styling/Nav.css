@@ -1,0 +1,15 @@
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #4269b2;
+  color: white;
+}
+
+.home-link {
+  color: white;
+}
+
+.settings-icon {
+  cursor: pointer;
+}
